@@ -110,10 +110,11 @@
 }
 
 .commentBoxCenter {
+    display: flex;
     padding: 20px 0;
 }
 
 .commentBoxBottom {
     display: flex;
-    align-items: center;
+
 }
