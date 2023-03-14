@@ -72,3 +72,21 @@
     background-color: #063b6f;
     cursor: pointer;
 }
+
+.previewImage {
+    position: relative;
+}
+
+.previewImage>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.previewImage>img {
+    width: 100%;
+    max-height: 16rem;
+    object-fit: cover;
+    border-radius: 10px;
+}

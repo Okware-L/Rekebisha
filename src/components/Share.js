@@ -32,25 +32,21 @@ import CloseIcon from '@mui/icons-material/Close';
           >
             <PermMediaIcon htmlColor='green'/>
             <div style={{display:"none"}}>
-              <input type="file" name="myImage" ref={imageRef} onChane={onImageChange} />
+              <input type="file" name="myImage" ref={imageRef} onChange={onImageChange} />
             </div>
            <p>media </p> 
-          </div>
-          
-
-          {/**preview not working ,,, wth meeen */}
-          {image && (
-            <div className='previewImage'>
-              <CloseIcon />
-            </div>
-          )} 
-
-
-          
+          </div> 
           <button className='postButton'>
             post
           </button>
           </div> 
+          {image && (
+            <div className='previewImage'>
+              <CloseIcon  onClick={() => setImage(null)}/>
+              <img src={image.image} alt=""/>
+            </div>
+          )} 
+
         </div>
         </div>
     )
