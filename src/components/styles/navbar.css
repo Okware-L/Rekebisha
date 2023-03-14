@@ -1,0 +1,102 @@
+nav {
+    display: flex;
+    align-items: center;
+    background: rgb(244, 244, 244);
+    justify-content: space-around;
+    text-align: center;
+}
+
+.icon {
+    padding: 25px 20px;
+    display: grid;
+}
+
+#icons {
+    display: flex;
+    position: relative;
+}
+
+.logo>img {
+    width: 17rem;
+    height: 5rem;
+    margin-left: 1.5cm;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: -2px;
+    color: black;
+    font-weight: 500;
+}
+
+.icon :hover {
+    color: brown;
+}
+
+#mobile i {
+    color: rgb(0, 0, 0);
+}
+
+#mobile {
+    display: none;
+}
+
+.barsResponsive {
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    nav {
+        padding: .5cm;
+    }
+
+    #icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top: 80px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+        background: rgb(244, 244, 244);
+
+    }
+
+    #icons.active {
+        right: 0px;
+    }
+
+    p {
+        margin-bottom: -20px;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .logo>img {
+        width: 12rem;
+        height: 3rem;
+        margin-right: 4cm;
+    }
+
+    .barsResponsive {
+        display: flex;
+        flex-direction: column;
+        color: blue;
+    }
+
+}

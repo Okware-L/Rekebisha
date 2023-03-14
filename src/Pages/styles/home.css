@@ -1,0 +1,32 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+
+.home {
+    margin-top: .5cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-bottom: .5cm;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .rightbar {
+        display: none;
+    }
+
+    .home {
+        margin-left: .5cm;
+        margin-right: .5cm;
+    }
+
+}

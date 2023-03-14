@@ -1,0 +1,72 @@
+.postWrapper {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+.postWrapper>img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.postWrapper>div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+
+.postWrapper>div>input {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.postOptions {
+    display: flex;
+    padding: 0 10px;
+    justify-content: flex-end;
+}
+
+.option {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(4, 49, 145);
+}
+
+.option>p {
+    margin-left: 10px;
+}
+
+
+.option:hover {
+    cursor: pointer;
+}
+
+.postButton {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(54, 99, 158);
+    color: white;
+}
+
+.postButton:hover {
+    background-color: rgb(7, 23, 116);
+}

@@ -1,0 +1,79 @@
+.sidebar {
+    flex: 2;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    background-color: white;
+    position: sticky;
+    align-self: flex-start;
+}
+
+.profileWrapper {
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+}
+
+.exploreWrapper {
+    padding: 20px;
+}
+
+.exploreWrapper:hover {
+    cursor: pointer;
+}
+
+.exploreWrapper>p {
+    padding: 6px;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.groupsWrapper {
+    padding: 20px;
+}
+
+.groupsWrapper:hover {
+    cursor: pointer;
+}
+
+.groupsWrapper>p {
+    padding: 6px;
+
+}
+
+.profileImg>img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.views {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileWrapper>button {
+    outline: none;
+    border: none;
+    background-color: rgb(27, 53, 147);
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.profileWrapper>button:hover {
+    background-color: rgb(15, 90, 127);
+    cursor: pointer;
+}
+
+.views>span {
+    font-weight: bold;
+}

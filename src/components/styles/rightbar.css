@@ -1,0 +1,54 @@
+.rightbarWrapper {
+    flex: 3;
+    flex-direction: column;
+
+}
+
+.rightbar {
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 7px;
+    height: 100%;
+}
+
+.androidLogo {
+    width: 100%;
+    max-height: 135px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.connectImg {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button>button {
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(50, 50, 145);
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
