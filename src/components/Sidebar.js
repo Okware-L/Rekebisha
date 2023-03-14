@@ -11,7 +11,7 @@ import dp from '../Assets/img1.jpg'
           <div className='profileImg'>
             <img src={dp} alt='' />
           </div>
-          <h2>John Doe</h2><br/>
+          <h1>John Doe</h1><br/>
           <p>Technician / Electrician</p>
           <div className='views'>
           <p>Profile Views</p>
@@ -24,7 +24,7 @@ import dp from '../Assets/img1.jpg'
           <button className='profileButton'>Edit my profile</button>
         </div> 
         <div className='exploreWrapper'>
-          <h3>Explore</h3>
+          <h2>Explore</h2>
           <p>#Building & Construction</p>
           <p>#Hustlers</p>
           <p>#Food & Drinks</p>
@@ -32,7 +32,7 @@ import dp from '../Assets/img1.jpg'
           <p>#Medical Care</p>
         </div>
         <div className='groupsWrapper'>
-          <h3>Groups</h3>
+          <h2>Groups</h2>
           <p>Carpenters(1057)</p>
           <p>Plumbers(800)</p>
           <p>Hotels(761)</p>
