@@ -11,6 +11,10 @@ nav {
     display: grid;
 }
 
+.menuItem {
+    color: #094e93;
+}
+
 #icons {
     display: flex;
     position: relative;
@@ -33,7 +37,7 @@ p {
 }
 
 .icon :hover {
-    color: brown;
+    color: rgb(5, 10, 55);
 }
 
 #mobile i {

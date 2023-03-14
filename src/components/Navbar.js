@@ -28,25 +28,25 @@ class Navbar extends Component {
         <div className='icon'>
          
         <Link to="/" >
-            <HomeIcon />
+            <HomeIcon className='menuItem'/>
             <p>Home</p>
         </Link>
         </div>
         <div className='icon'>
         <Link to="/" >
-            <AppsIcon />
+            <AppsIcon className='menuItem'/>
             <p>Our Apps</p>
         </Link>
         </div>
         <div className='icon'>
         <Link to="/" >
-            <NotificationsActiveIcon />
+            <NotificationsActiveIcon className='menuItem'/>
             <p>Notifications</p>
         </Link>
         </div>
         <div className='icon'>
         <Link to="/" >
-            <LogoutIcon />
+            <LogoutIcon className='menuItem'/>
            <p>Logout</p>
         </Link>
         </div>
@@ -65,7 +65,7 @@ class Navbar extends Component {
         </div>
         </div>
 
-
+ 
         </div>
 
         {/**resposnsive features*/}

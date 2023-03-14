@@ -77,10 +77,12 @@
 
 .likeIcon {
     padding: 3px;
+    color: #0a66c2;
 }
 
 .likeIcon:hover {
     cursor: pointer;
+    color: #06396c;
 }
 
 .comment {

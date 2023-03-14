@@ -63,10 +63,12 @@
     border-radius: 10px;
     border: none;
     margin-left: 20px;
-    background-color: rgb(54, 99, 158);
+    background-color: #0a66c2;
+    ;
     color: white;
 }
 
 .postButton:hover {
-    background-color: rgb(7, 23, 116);
+    background-color: #063b6f;
+    cursor: pointer;
 }

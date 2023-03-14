@@ -1,7 +1,6 @@
 .sidebar {
     flex: 2;
     flex-direction: column;
-    border: 1px solid black;
     border-radius: 10px;
     height: auto;
     background-color: white;
@@ -63,14 +62,14 @@ h2 {
 .profileWrapper>button {
     outline: none;
     border: none;
-    background-color: rgb(27, 53, 147);
+    background-color: #0a66c2;
     padding: 10px;
     border-radius: 10px;
     color: aliceblue;
 }
 
 .profileWrapper>button:hover {
-    background-color: rgb(15, 90, 127);
+    background-color: #074079;
     cursor: pointer;
 }
 

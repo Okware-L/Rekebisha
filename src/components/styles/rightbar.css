@@ -31,8 +31,10 @@
     border-radius: 50%;
 }
 
-h3 {
+
+h4 {
     text-align: center;
+    font-size: 13px;
 }
 
 .button {
@@ -46,9 +48,10 @@ h3 {
     padding: 7px;
     border: none;
     outline: none;
-    background-color: rgb(50, 50, 145);
+    background-color: #0a66c2;
     color: aliceblue;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }

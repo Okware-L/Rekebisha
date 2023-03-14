@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/sidebar.css';
 import dp from '../Assets/img1.jpg'
+import { Divider } from '@mui/material';
 
 
  class Sidebar extends Component {
@@ -31,6 +32,7 @@ import dp from '../Assets/img1.jpg'
           <p>#Beauty</p>
           <p>#Medical Care</p>
         </div>
+        <Divider />
         <div className='groupsWrapper'>
           <h2>Groups</h2>
           <p>Carpenters(1057)</p>

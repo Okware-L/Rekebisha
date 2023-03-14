@@ -1,70 +1,30 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './styles/rightbar.css'
 //import android from '../Assets/android.jpg'
-import AddCircleIcon from '@mui/icons-material/AddCircle';
-import dp from '../Assets/img1.jpg'
 import { Divider } from '@mui/material';
+import Connects from './Connects';
+import { Users } from '../dummyData'
 
- class Rightbar extends Component {
-  render() {
+ export default function Rightbar () {
     return (
       <div className='rightbarWrapper'>
-        <h3>Add connections</h3>
+        <h2>Add connections</h2>
         <Divider />
        {/**<img className='androidLogo' src={android} alt='/' /> */} 
         <div className='rightbar'>
-          
-          <div className='connect'>
-           <img className='connectImg' src={dp} alt='/'/>
-           <div>
-            <h4>Fundi Halisi</h4>
-            <p>Carpenter</p>
-           </div>
-           <AddCircleIcon htmlColor='blue'/>
-          </div>
-          <Divider />
-          <div className='connect'>
-           <img className='connectImg' src={dp} alt='/'/>
-           <div>
-            <h4>Fundi Halisi</h4>
-            <p>Carpenter</p>
-           </div>
-           <AddCircleIcon htmlColor='blue'/>
-          </div>
-          <Divider />
-          <div className='connect'>
-           <img className='connectImg' src={dp} alt='/'/>
-           <div>
-            <h4>Fundi Halisi</h4>
-            <p>Carpenter</p>
-           </div>
-           <AddCircleIcon htmlColor='blue'/>
-          </div>
-          <Divider />
-          <div className='connect'>
-           <img className='connectImg' src={dp} alt='/'/>
-           <div>
-            <h4>Fundi Halisi</h4>
-            <p>Carpenter</p>
-           </div>
-           <AddCircleIcon htmlColor='blue'/>
-          </div>
-          <Divider/>
-          <div className='connect'>
-           <img className='connectImg' src={dp} alt='/'/>
-           <div>
-            <h4>Fundi Halisi</h4>
-            <p>Carpenter</p>
-           </div>
-           <AddCircleIcon htmlColor='blue'/>
-          </div>
+        {Users.map((u) => (
+          <Connects key={u.id} user={u} />
+        ))}
           <div className='button'>
           <button >More Connections</button>
           </div>
         </div>
       </div>
     ) 
-  }
-}
+  } 
 
-export default Rightbar
+//
+//{Users.map((u) => (
+ // <Connects key={u.id} user={u} />
+ // ))}
+//
